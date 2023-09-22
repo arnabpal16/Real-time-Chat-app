@@ -10,7 +10,7 @@ function App() {
   console.log(user)
   return (
     <div className="max-w-[720px] mt-2 mx-auto text-center  overflow-y-hidden">
-      <div className="flex flex-col h-[90vh] bg-gray-200 mt-10 shadow-xl border relative ">
+      <div className="flex flex-col h-[90vh] bg-gray-200 mt-10 shadow-xl border relative">
         <Navbar />
         {
           user ? <Chat /> : <p className="text-sm text-blue-800 font-bold font-san my-auto opacity-10">Sign In to Chat </p>
